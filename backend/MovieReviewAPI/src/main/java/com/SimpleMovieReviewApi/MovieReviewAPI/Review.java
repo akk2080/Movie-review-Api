@@ -16,8 +16,11 @@ public class Review {
 
     private ObjectId id;
     private String body;
-    private LocalDateTime created;
-    private LocalDateTime updated;
+//    private LocalDateTime created;
+//    private LocalDateTime updated;
 
 
+    public Review(String reviewBody) {
+        this.body = reviewBody;
+    }
 }
